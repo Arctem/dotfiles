@@ -83,7 +83,7 @@ alias gul='git pull'
 alias gsul='git stash && git pull && git stash pop'
 alias gus='git push'
 alias gap='git add -p'
-alias go='git checkout'
+alias got='git checkout'
 alias gif='git diff'
 alias gog='git log --graph'
 
@@ -95,6 +95,7 @@ alias ber='bundle exec rake'
 alias dbnuke='bundle exec rake db:drop db:create && bundle exec rake db:migrate && bundle exec rake db:seed quick_seed=tiny'
 alias startfms='passenger start --ssl --ssl-certificate=server.crt --ssl-certificate-key=server.key --port 3000'
 alias startsc='passenger start --ssl --ssl-certificate=server.crt --ssl-certificate-key=server.key --port 3001'
+alias nom="rm -rf node_modules && npm cache clear && npm i"
 
 export HOMEBREW_GITHUB_API_TOKEN="7f9f7f0bd3d47a3155405d9638336f1a697200fe"
 
